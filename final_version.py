@@ -26,7 +26,7 @@ def aleksander():
     elif temperature > 34:
       back_colour = r
     
-    speed = 0.06
+    speed = 0.05
     sense.show_message("The Temp is: " + str(temperature) + "C", speed, text_colour = W, back_colour =  back_colour)
     return temperature
 
